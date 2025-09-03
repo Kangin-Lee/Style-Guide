@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎨 IOPS Web Style Guide
+이 프로젝트는 브랜드 UI/UX 일관성을 유지하기 위해 만든 웹 스타일 가이드이다.  
+Next.js 기반으로 구축되었으며, 디자이너와 개발자가 공통으로 참고할 수 있는 UI 컴포넌트와 스타일 규칙을 제공한다.  
 
-## Getting Started
+# ✨ 기술 스택
+언어 - JS
+프레임워크 - NEXT.JS (v15.3.2)
+CSS 라이브러리 - TailwindCSS (v4)
+컴포넌트 라이브러리 - Shadcn UI
+비동기 상태관리 라이브러리 - Tanstack Query(=React Query)
+상태관리 라이브러리 - Zustand (v5.0.5)
+차트 라이브러리 - Recharts
+폼 관리 - React Hook Form + Zod
+그리드 - Tanstack Table(=React Table)
+에디터 - Tiptap (커스텀해야됨), CKEditor는 Next와 조합이 좋지 않음.
+툴링 - ESLint, Prettier
 
-First, run the development server:
+# ⚙ 개발 환경
+Node.js: >= 20.x (권장 22.x)
+Next.js: ^15.2.x
+React: ^19.x
+npm: >= 10.x
+TailwindCSS: ^3.4.x
 
-```bash
+# ⚙️ 개발 실행
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 📦 빌드 & 배포
+npm run build
+npm run start
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 🟣 추천 VSCode 플러그인
+Tailwind CSS IntelliSense
+ESLint
+Prettier
+GitLens
+React Developer Tools
