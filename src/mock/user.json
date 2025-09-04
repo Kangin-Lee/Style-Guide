@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "invoice": "INV001",
+    "status": "Paid",
+    "method": "Credit Card",
+    "amount": "$250.00",
+    "date": "2024-06-01"
+  },
+  {
+    "id": "2",
+    "invoice": "INV002",
+    "status": "Pending",
+    "method": "Bank Transfer",
+    "amount": "$400.00",
+    "date": "2024-06-02"
+  },
+  {
+    "id": "3",
+    "invoice": "INV003",
+    "status": "Paid",
+    "method": "Credit Card",
+    "amount": "$230.00",
+    "date": "2024-06-03"
+  },
+  {
+    "id": "4",
+    "invoice": "INV004",
+    "status": "Pending",
+    "method": "Bank Transfer",
+    "amount": "$400.00",
+    "date": "2024-06-04"
+  },
+  {
+    "id": "5",
+    "invoice": "INV005",
+    "status": "Paid",
+    "method": "Credit Card",
+    "amount": "$250.00",
+    "date": "2024-06-05"
+  },
+  {
+    "id": "6",
+    "invoice": "INV006",
+    "status": "Pending",
+    "method": "Bank Transfer",
+    "amount": "$400.00",
+    "date": "2024-06-06"
+  },
+  {
+    "id": "7",
+    "invoice": "INV007",
+    "status": "Paid",
+    "method": "Credit Card",
+    "amount": "$250.00",
+    "date": "2024-06-07"
+  },
+  {
+    "id": "8",
+    "invoice": "INV008",
+    "status": "Pending",
+    "method": "Bank Transfer",
+    "amount": "$400.00",
+    "date": "2024-06-08"
+  },
+  {
+    "id": "9",
+    "invoice": "INV009",
+    "status": "Paid",
+    "method": "Credit Card",
+    "amount": "$250.00",
+    "date": "2024-06-09"
+  },
+  {
+    "id": "10",
+    "invoice": "INV010",
+    "status": "Pending",
+    "method": "Bank Transfer",
+    "amount": "$400.00",
+    "date": "2024-06-10"
+  },
+  {
+    "id": "11",
+    "invoice": "INV011",
+    "status": "Paid",
+    "method": "Credit Card",
+    "amount": "$250.00",
+    "date": "2024-06-11"
+  },
+  {
+    "id": "12",
+    "invoice": "INV012",
+    "status": "Pending",
+    "method": "Bank Transfer",
+    "amount": "$400.00",
+    "date": "2024-06-12"
+  },
+  {
+    "id": "13",
+    "invoice": "INV013",
+    "status": "Paid",
+    "method": "Credit Card",
+    "amount": "$250.00",
+    "date": "2024-06-13"
+  },
+  {
+    "id": "14",
+    "invoice": "INV014",
+    "status": "Pending",
+    "method": "Bank Transfer",
+    "amount": "$400.00",
+    "date": "2024-06-14"
+  },
+  {
+    "id": "15",
+    "invoice": "INV015",
+    "status": "Failed",
+    "method": "Paypal",
+    "amount": "$120.00",
+    "date": "2024-06-15"
+  }
+]

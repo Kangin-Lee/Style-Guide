@@ -24,7 +24,7 @@ export default function StyleAccordion() {
       <div className="flex flex-col md:flex-row bg-white p-4 gap-8">
         {/* Preview 영역 */}
         <section className="md:w-1/2 w-full">
-          <h2 className="text-lg font-semibold mb-4">Color Button</h2>
+          <h2 className="text-lg font-semibold mb-4">Accordion</h2>
           <div className="flex gap-4 flex-wrap">
             <AccordionComponent />
           </div>

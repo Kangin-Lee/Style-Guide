@@ -67,7 +67,7 @@ const items = [
 {
   id: 'checkbox',
   img: '/components/Checkbox.svg',
-  href: '/control/checkbox',
+  href: '/checkbox',
   title: 'Checkbox',
   description: '복수 선택이 필요한 항목에서 사용되며, 각 옵션을 독립적으로 on/off 할 수 있는 입력 요소입니다.'
 },
@@ -88,7 +88,7 @@ const items = [
 {
   id: 'editor',
   img: '/components/Editor.svg',
-  href: '/form/editor',
+  href: '/editor',
   title: 'Editor',
   description: '사용자가 서식 있는 텍스트(리치 텍스트) 또는 코드, 마크다운 등을 작성할 수 있도록 제공하는 입력 컴포넌트입니다. 툴바, 단축키, 미리보기 기능 등은 사용 목적에 맞게 구성되어야 합니다.'
 },
@@ -116,7 +116,7 @@ const items = [
 {
   id: 'input',
   img: '/components/Input.svg',
-  href: '/form/input',
+  href: '/input',
   title: 'Input',
   description: '한 줄의 텍스트, 숫자, 이메일 등 다양한 값을 단일 라인으로 입력받는 기본 폼 요소입니다. 플레이스홀더, 라벨, 에러 메시지 등과 함께 명확한 피드백을 제공해야 합니다.'
 },
@@ -130,7 +130,7 @@ const items = [
 {
   id: 'otp',
   img: '/components/otp.svg',
-  href: '/form/otp',
+  href: '/otp',
   title: 'OTP',
   description: '인증 코드를 입력할 수 있도록 자릿수마다 분리된 입력 필드를 제공하며, 빠르고 정확한 입력을 유도해야 합니다.'
 },
@@ -151,14 +151,14 @@ const items = [
 {
   id: 'radio',
   img: '/components/Radio.svg',
-  href: '/control/radiogroup',
+  href: '/radiogroup',
   title: 'RadioGroup',
   description: '여러 옵션 중 하나만 선택 가능한 입력 그룹으로, 상호 배타적인 선택지를 명확히 구분할 때 사용합니다.'
 },
 {
   id: 'selectbox',
   img: '/components/Select.svg',
-  href: '/control/selectbox',
+  href: '/selectbox',
   title: 'SelectBox',
   description: '여러 옵션 중 하나를 선택할 수 있는 드롭다운 형태의 컴포넌트로, 공간을 절약하면서 선택지를 제공할 수 있습니다.'
 },
@@ -186,7 +186,7 @@ const items = [
 {
   id: 'switch',
   img: '/components/Switch.svg',
-  href: '/control/toggle',
+  href: '/toggle',
   title: 'Switch',
   description: '토글과 유사하지만, 이진 상태의 설정을 직관적으로 표현하는 데 더 특화된 컴포넌트로 사용됩니다. 설정/환경 변경과 같은 즉각 반영되는 액션에 적합합니다.'
 },
@@ -207,7 +207,7 @@ const items = [
 {
   id: 'textarea',
   img: '/components/Textarea.svg',
-  href: '/form/textarea',
+  href: '/textarea',
   title: 'TextArea',
   description: '여러 줄의 자유로운 텍스트 입력이 필요한 경우 사용하는 폼 요소로, 입력 길이에 따라 크기 조절이 가능하며 내용 가독성을 고려한 여백과 폰트 설정이 중요합니다.'
 },
@@ -228,7 +228,7 @@ const items = [
 {
   id: 'toggle',
   img: '/components/toggle.svg',
-  href: '/control/toggle',
+  href: '/toggle',
   title: 'Toggle',
   description: '켜짐/꺼짐(on/off) 상태를 전환할 수 있는 스위치 형태의 컴포넌트로, 즉각적인 설정 변경이나 기능 활성화에 적합합니다.'
 },

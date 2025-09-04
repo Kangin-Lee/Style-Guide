@@ -99,25 +99,25 @@ const items = [
 ];
 
 const formInput = [
-  { title: "Input", url: "/form/input", icon: TextCursorInput },
-  { title: "TextArea", url: "/form/textarea", icon: Text },
-  { title: "OTP", url: "/form/otp", icon: SquareAsterisk },
-  { title: "Editor", url: "/form/editor", icon: Bolt },
+  { title: "Input", url: "/input", icon: TextCursorInput },
+  { title: "TextArea", url: "/textarea", icon: Text },
+  { title: "OTP", url: "/otp", icon: SquareAsterisk },
+  { title: "Editor", url: "/editor", icon: Bolt },
 ];
 
 const control = [
   {
     title: "Checkbox",
-    url: "/control/checkbox",
+    url: "/checkbox",
     icon: CircleCheck,
   },
-  { title: "RadioGroup", url: "/control/radiogroup", icon: Radio },
+  { title: "RadioGroup", url: "/radiogroup", icon: Radio },
   {
     title: "Selectbox",
-    url: "/control/selectbox",
+    url: "/selectbox",
     icon: SquareMousePointer,
   },
-  { title: "Toggle", url: "/control/toggle", icon: ToggleRight },
+  { title: "Toggle", url: "/toggle", icon: ToggleRight },
 ];
 
 export default function StyleGuideSidebar() {
@@ -286,7 +286,7 @@ export default function StyleGuideSidebar() {
                   //   isActive && "bg-[var(--color-primary)] text-white" // ✅ active 스타일
                   // )}
                 >
-                  <Link href="style-guide/setting/tech-stack">
+                  <Link href="/setting">
                     <Settings />
                     <span>Project Setting</span>
                   </Link>
