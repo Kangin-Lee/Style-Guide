@@ -2,6 +2,12 @@
 import CodeBlock from "../components/CodeBlock";
 import BadgeComponent from "./components/BadgeComponent";
 
+// 페이지 메타데이터
+export const metadata = {
+  title: "Badge - IOPS UI Library",
+  description: "IOPS Style Guide - Badge",
+}
+
 export default function StyleBadge() {
   return (
     <div className="space-y-12">
