@@ -22,7 +22,7 @@ export const items = [
 },
 {
   id: 'Bread Crumb',
-  img: '/components/Breadcrumb.svg',
+  img: '/components/BreadCrumb.svg',
   href: '/breadcrumb',
   title: 'Bread Crumb',
   description: '경로 기반 탐색을 지원하며, 보통 “홈 > 제품 > 상세”와 같은 계층형 경로를 수평 나열하는 방식으로 구성됩니다.'
@@ -120,7 +120,7 @@ export const items = [
 },
 {
   id: 'otp',
-  img: '/components/Otp.svg',
+  img: '/components/OTP.svg',
   href: '/otp',
   title: 'OTP',
   description: '인증 코드를 입력할 수 있도록 자릿수마다 분리된 입력 필드를 제공하며, 빠르고 정확한 입력을 유도해야 합니다.'
