@@ -22,14 +22,14 @@ export const items = [
 },
 {
   id: 'Bread Crumb',
-  img: '/components/breadcrumb.svg',
+  img: '/components/Breadcrumb.svg',
   href: '/breadcrumb',
   title: 'Bread Crumb',
   description: '경로 기반 탐색을 지원하며, 보통 “홈 > 제품 > 상세”와 같은 계층형 경로를 수평 나열하는 방식으로 구성됩니다.'
 },
 {
   id: 'button',
-  img: '/components/button.svg',
+  img: '/components/Button.svg',
   href: '/button',
   title: 'Button',
   description: '사용자 인터랙션을 유도하는 요소로, 명확한 텍스트와 시각적 피드백을 통해 동작을 직관적으로 인지할 수 있어야 합니다.'
@@ -85,7 +85,7 @@ export const items = [
 },
 {
   id: 'fileupload',
-  img: '/components/fileupload.svg',
+  img: '/components/Fileupload.svg',
   href: '/fileupload',
   title: 'FileUpload',
   description: '사용자가 로컬 파일을 선택해 서버로 전송할 수 있도록 하며, 명확한 상태 표시와 오류 처리 기능을 포함해야 합니다.'
@@ -113,14 +113,14 @@ export const items = [
 },
 {
   id: 'Layout',
-  img: '/components/layout.svg',
+  img: '/components/Layout.svg',
   href: '/layout',
   title: 'Layout',
   description: '콘텐츠와 컴포넌트가 조화롭게 배치되고 시각적으로 안정감 있게 구성되도록 하는 뼈대 역할을 하며, 반응형 대응이 핵심입니다.'
 },
 {
   id: 'otp',
-  img: '/components/otp.svg',
+  img: '/components/Otp.svg',
   href: '/otp',
   title: 'OTP',
   description: '인증 코드를 입력할 수 있도록 자릿수마다 분리된 입력 필드를 제공하며, 빠르고 정확한 입력을 유도해야 합니다.'
@@ -204,28 +204,28 @@ export const items = [
 },
 {
   id: 'title Component',
-  img: '/components/title.svg',
+  img: '/components/Title.svg',
   href: '/title',
   title: 'Title Component',
   description: '콘텐츠 구조를 구분하고 사용자에게 현재 위치나 섹션의 성격을 명확히 안내하기 위한 헤드라인 역할을 합니다.'
 },
 {
   id: 'toast',
-  img: '/components/toast.svg',
+  img: '/components/Toast.svg',
   href: '/feedback',
   title: 'Toast',
   description: '화면 한쪽에 일시적으로 나타났다 사라지는 알림으로, 상태 피드백(예: 저장 완료 등)을 빠르게 전달합니다. 모달보다 사용자 흐름에 간섭이 적습니다.'
 },
 {
   id: 'toggle',
-  img: '/components/toggle.svg',
+  img: '/components/Toggle.svg',
   href: '/toggle',
   title: 'Toggle',
   description: '켜짐/꺼짐(on/off) 상태를 전환할 수 있는 스위치 형태의 컴포넌트로, 즉각적인 설정 변경이나 기능 활성화에 적합합니다.'
 },
 {
   id: 'tooltip',
-  img: '/components/tooltip.svg',
+  img: '/components/Tooltip.svg',
   href: '/feedback',
   title: 'Tooltip',
   description: '요소에 마우스를 올렸을 때 간단한 설명이나 추가 정보를 제공하는 UI로, 주로 텍스트나 아이콘의 의미를 보조하는 데 사용됩니다.'
