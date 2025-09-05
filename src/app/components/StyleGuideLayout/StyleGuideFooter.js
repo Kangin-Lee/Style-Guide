@@ -4,7 +4,7 @@
 export default function StyleGuideFooter() {
     return(
         <div className="text-center p-1">
-            © 2025 Copyright IOPS. All rights reserved
+            © 2025 Copyright KANGIN. All rights reserved
         </div>
     )
 }

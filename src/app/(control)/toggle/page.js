@@ -7,8 +7,8 @@ import CodeBlock from "@/app/components/CodeBlock";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Toggle - IOPS UI Library",
-  description: "IOPS Style Guide - Toggle",
+  title: "Toggle",
+  description: "Toggle",
 }
 
 export default function ControlToggle() {

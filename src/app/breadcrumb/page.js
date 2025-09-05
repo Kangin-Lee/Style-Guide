@@ -6,8 +6,8 @@ import BreadcrumbComponent from "./components/BreadcrumbComponent";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Breadcrumb - IOPS UI Library",
-  description: "IOPS Style Guide - Breadcrumb",
+  title: "Breadcrumb",
+  description: "Breadcrumb",
 }
 
 export default function Breadcrumb() {

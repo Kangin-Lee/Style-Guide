@@ -7,8 +7,8 @@ import RowGrid from "./components/RowGrid";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Grid - IOPS UI Library",
-  description: "IOPS Style Guide - Grid",
+  title: "Grid",
+  description: "Grid",
 }
 
 export default function StyleGrid() {

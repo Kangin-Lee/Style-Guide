@@ -12,8 +12,8 @@ import StyleRadarChart from "./components/StyleRadarChart";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Chart - IOPS UI Library",
-  description: "IOPS Style Guide - Chart",
+  title: "Chart",
+  description: "Chart",
 }
 
 export default function StyleChart() {

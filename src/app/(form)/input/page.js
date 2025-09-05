@@ -10,8 +10,8 @@ import { PhoneField } from "./components/PhoneField";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Input - IOPS UI Library",
-  description: "IOPS Style Guide - Input",
+  title: "Input",
+  description: "Input",
 }
 
 export default function FormInput() {

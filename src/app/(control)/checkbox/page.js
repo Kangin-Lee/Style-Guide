@@ -6,8 +6,8 @@ import { CheckBoxField } from "./components/CheckBoxField";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Checkbox - IOPS UI Library",
-  description: "IOPS Style Guide - Checkbox",
+  title: "Checkbox - Kangin UI Library",
+  description: "Kangin Style Guide - Checkbox",
 }
 
 export default function ControlCheckbox() {

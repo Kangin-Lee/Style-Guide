@@ -3,8 +3,8 @@ import CodeBlock from "../components/CodeBlock";
 import PaginationComponent from "./components/PaginationComponent";
 
 export const metadata = {
-  title: "Pagination - IOPS UI Library",
-  description: "IOPS Style Guide - Pagination",
+  title: "Pagination",
+  description: "Pagination",
 }
 
 export default function StylePagenation() {

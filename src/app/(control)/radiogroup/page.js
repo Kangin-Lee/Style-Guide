@@ -6,8 +6,8 @@ import { RadioGroupField } from "./components/RadioGroupField";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "RadioGroup - IOPS UI Library",
-  description: "IOPS Style Guide - RadioGroup",
+  title: "RadioGroup",
+  description: "RadioGroup",
 }
 
 export default function ControlCheckbox() {

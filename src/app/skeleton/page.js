@@ -15,8 +15,8 @@ import { StyleLoadingSpinner } from "./components/StyleLoadingSpinner";
 import { StyleTableSkeleton } from "./components/StyleTableSkeleton";
 
 export const metadata = {
-  title: "Skeleton & Loading Spinner - IOPS UI Library",
-  description: "IOPS Style Guide - Skeleton & Loading Spinner",
+  title: "Skeleton & Loading Spinner",
+  description: "Skeleton & Loading Spinner",
 }
 
 export default function StyleSkeleton() {

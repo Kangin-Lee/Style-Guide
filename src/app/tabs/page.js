@@ -5,8 +5,8 @@ import { TabsComponent } from "./components/TabsComponent";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Tabs - IOPS UI Library",
-  description: "IOPS Style Guide - Tabs",
+  title: "Tabs",
+  description: "Tabs",
 }
 
 export default function StyleTabs() {

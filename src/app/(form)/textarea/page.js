@@ -5,8 +5,8 @@ import { TextAreaField } from "./components/TextAreaField";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "TextArea - IOPS UI Library",
-  description: "IOPS Style Guide - TextArea",
+  title: "TextArea",
+  description: "TextArea",
 }
 
 export default function FormTextArea() {

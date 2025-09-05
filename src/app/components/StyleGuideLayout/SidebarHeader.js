@@ -11,7 +11,7 @@ export function SidebarHeader() {
 
   return (
     <div className="relative bg-white flex items-center justify-between px-4 py-3 border-b border-[var(--color-border)]">
-      <Link href="/">
+      {/* <Link href="/">
         <Image
           src="/logo/IOPS_Logo.png"
           alt="아이옵스 로고"
@@ -19,7 +19,7 @@ export function SidebarHeader() {
           height={40}
           priority
         />
-      </Link>
+      </Link> */}
 
       {/* 마우스 진입/이탈 범위를 드롭다운까지 포함하는 wrapper로 확장 */}
       <div
@@ -27,7 +27,7 @@ export function SidebarHeader() {
         onMouseLeave={() => setIsOpen(false)}
       >
         <div className="px-4 py-2 cursor-pointer font-bold text-xl text-[var(--color-primary)]">
-          IOPS UI Library v1
+          Kangin UI Library v1
         </div>
 
         {/* 드롭다운 영역도 이제 이벤트 범위 안에 포함됨 */}

@@ -3,8 +3,8 @@
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Card - IOPS UI Library",
-  description: "IOPS Style Guide - Card",
+  title: "Card",
+  description: "Card",
 }
 
 import CodeBlock from "../components/CodeBlock";

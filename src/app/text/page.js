@@ -6,8 +6,8 @@ import { TextWeigth } from "./components/TextWeigth";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Text - IOPS UI Library",
-  description: "IOPS Style Guide - Text",
+  title: "Text",
+  description: "Text",
 }
 
 export default function StyleText() {

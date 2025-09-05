@@ -7,8 +7,8 @@ import SingleFileUpload from "./components/SingleFileUpload";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "FileUpload - IOPS UI Library",
-  description: "IOPS Style Guide - FileUpload",
+  title: "FileUpload",
+  description: "FileUpload",
 }
 
 export default function FileUpload() {

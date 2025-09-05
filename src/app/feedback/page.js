@@ -9,8 +9,8 @@ import { StyleTooltip } from "./components/StyleTooltip";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Feedback - IOPS UI Library",
-  description: "IOPS Style Guide - Feedback",
+  title: "Feedback",
+  description: "Feedback",
 };
 
 export default function StyleFeedback() {

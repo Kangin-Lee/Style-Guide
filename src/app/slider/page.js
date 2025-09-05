@@ -4,8 +4,8 @@ import CodeBlock from "../components/CodeBlock";
 import { SliderComponent } from "./components/SliderComponent";
 
 export const metadata = {
-  title: "Slider - IOPS UI Library",
-  description: "IOPS Style Guide - Slider",
+  title: "Slider",
+  description: "Slider",
 }
 
 export default function StyleSlider() {

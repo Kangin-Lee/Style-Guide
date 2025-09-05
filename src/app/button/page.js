@@ -3,8 +3,8 @@
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Button - IOPS UI Library",
-  description: "IOPS Style Guide - Button",
+  title: "Button",
+  description: "Button",
 }
 
 import { ColorButton } from "./components/ColorButton";

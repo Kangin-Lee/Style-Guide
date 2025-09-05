@@ -4,8 +4,8 @@ import CodeBlock from "../components/CodeBlock";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Setting - IOPS UI Library",
-  description: "IOPS Style Guide - Setting",
+  title: "Setting",
+  description: "Setting",
 }
 
 export default function TechStack() {

@@ -12,8 +12,8 @@ import { SortFilterIcons } from "./components/SortFilterIcons";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Icon - IOPS UI Library",
-  description: "IOPS Style Guide - Icon",
+  title: "Icon",
+  description: "Icon",
 }
 
 export default function StylesIcon() {

@@ -6,8 +6,11 @@ import StyleGuideLayout from "./components/StyleGuideLayout/StyleGuideLayout";
 import ReactQueryProvider from "./components/TanstakQuery/ReactQueryProvider";
 
 export const metadata = {
-  title: 'IOPS UI Library',
-  description: 'IOPS Style Guide',
+  title: {
+    default: "Kangin UI Library",        // 기본 타이틀
+    template: "%s - Kangin UI Library",  // 페이지에서 title 정의 시 자동으로 붙음
+  },
+  description: 'Kangin Style Guide',
 }
 
 export default function RootLayout({ children }) {

@@ -6,8 +6,8 @@ import AccordionComponent from "./components/AccordionComponent";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Accordion - IOPS UI Library",
-  description: "IOPS Style Guide - Accordion",
+  title: "Accordion",
+  description: "Accordion",
 }
 
 export default function StyleAccordion() {

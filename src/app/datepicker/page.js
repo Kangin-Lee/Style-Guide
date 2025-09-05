@@ -12,8 +12,8 @@ import { DateRangePickerField } from "./components/DateTimePickerField";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "DatePicker - IOPS UI Library",
-  description: "IOPS Style Guide - DatePicker",
+  title: "DatePicker",
+  description: "DatePicker",
 }
 
 export default function StyleDatePicker() {

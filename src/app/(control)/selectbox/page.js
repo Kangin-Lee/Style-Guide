@@ -8,8 +8,8 @@ import { SelectField } from "./components/SelectField";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Selectbox - IOPS UI Library",
-  description: "IOPS Style Guide - Selectbox",
+  title: "Selectbox",
+  description: "Selectbox",
 }
 
 export default function ControlSelectbox() {

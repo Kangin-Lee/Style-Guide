@@ -5,8 +5,8 @@ import { OtpField } from "./components/OtpField";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "OTP - IOPS UI Library",
-  description: "IOPS Style Guide - OTP",
+  title: "OTP",
+  description: "OTP",
 }
 
 export default function FormOTP() {

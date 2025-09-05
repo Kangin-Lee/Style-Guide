@@ -5,8 +5,8 @@ import { EditorField } from "./components/EditorField";
 
 // 페이지 메타데이터
 export const metadata = {
-  title: "Editor - IOPS UI Library",
-  description: "IOPS Style Guide - Editor",
+  title: "Editor",
+  description: "Editor",
 };
 
 export default function ControlEditor() {

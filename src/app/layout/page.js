@@ -2,8 +2,8 @@
 
 // 페이지 메타데이터
 export const metadata = {
-    title: "Layout - IOPS UI Library",
-    description: "IOPS Style Guide - Layout",
+    title: "Layout",
+    description: "Layout",
 }
 
 export default function StyleLayout() {
