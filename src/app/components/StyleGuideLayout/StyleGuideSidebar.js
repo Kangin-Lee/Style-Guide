@@ -4,39 +4,12 @@
 "use client";
 
 import {
-  Badge,
-  Bolt,
-  Bone,
-  BookOpenText,
-  Calendar1,
-  CalendarDays,
-  ChartArea,
   ChevronDown,
-  ChevronRight,
   ChevronUp,
-  CircleArrowRight,
-  CircleCheck,
-  FileUp,
-  Grid3X3,
-  Heading,
   Joystick,
-  LayoutDashboard,
-  ListCollapse,
   LogOut,
-  Logs,
   Mail,
-  MessageCircleWarning,
-  Radio,
-  Search,
   Settings,
-  Settings2,
-  Square,
-  SquareAsterisk,
-  SquareMousePointer,
-  Table,
-  Text,
-  TextCursorInput,
-  ToggleRight,
   Type,
   User,
   UserRoundCog,
@@ -69,56 +42,9 @@ import {
 } from "@/components/ui/collapsible";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-
-const items = [
-  { title: "Text", url: "/text", icon: Text },
-  { title: "Button", url: "/button", icon: CircleArrowRight },
-  { title: "Badge", url: "/badge", icon: Badge },
-  // { title: "Form", url: "/form", icon: Type },
-  { title: "Table", url: "/table", icon: Table },
-  { title: "Tabs", url: "/tabs", icon: Logs },
-  { title: "Accordion", url: "/accordion", icon: ListCollapse },
-  { title: "Card", url: "/card", icon: Square },
-  { title: "Breadcrumb", url: "/breadcrumb", icon: ChevronRight },
-  { title: "Calendar", url: "/calendar", icon: CalendarDays },
-  { title: "DatePicker", url: "/datepicker", icon: Calendar1 },
-  {
-    title: "Feedback",
-    url: "/feedback",
-    icon: MessageCircleWarning,
-  },
-  { title: "Chart", url: "/chart", icon: ChartArea },
-  { title: "Skeleton", url: "/skeleton", icon: Bone },
-  { title: "Slider", url: "/slider", icon: Settings2 },
-  { title: "FileUpload", url: "/fileupload", icon: FileUp },
-  { title: "Icon", url: "/icon", icon: Search },
-  { title: "Title", url: "/title", icon: Heading },
-  { title: "Layout", url: "/layout", icon: LayoutDashboard },
-  { title: "Grid", url: "/grid", icon: Grid3X3 },
-  { title: "Pagination", url: "/pagination", icon: BookOpenText },
-];
-
-const formInput = [
-  { title: "Input", url: "/input", icon: TextCursorInput },
-  { title: "TextArea", url: "/textarea", icon: Text },
-  { title: "OTP", url: "/otp", icon: SquareAsterisk },
-  { title: "Editor", url: "/editor", icon: Bolt },
-];
-
-const control = [
-  {
-    title: "Checkbox",
-    url: "/checkbox",
-    icon: CircleCheck,
-  },
-  { title: "RadioGroup", url: "/radiogroup", icon: Radio },
-  {
-    title: "Selectbox",
-    url: "/selectbox",
-    icon: SquareMousePointer,
-  },
-  { title: "Toggle", url: "/toggle", icon: ToggleRight },
-];
+import { items } from "./data/items";
+import { control } from "./data/control";
+import { formInput } from "./data/formInput";
 
 export default function StyleGuideSidebar() {
   const pathname = usePathname();
